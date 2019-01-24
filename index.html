@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-
+    <!--Wrap in container class for centered content-->
     <div class="container">
       <div class="row">
         <div class="col-sm">
@@ -22,21 +22,37 @@
         </div>
       </div>
     </div>
-
+    <!--Wrap in container-fluid for contens that spans the page, breakpoints are made by screen size-->
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm">
           One of three columns
         </div>
-        <div class="col-sm">
+        <div class="col-md">
           One of three columns
         </div>
-        <div class="col-sm">
+        <div class="col-lg">
           One of three columns
         </div>
       </div>
     </div>
-
+    <!--Bootstrap has a 12 grid system that is easily modified by class-->
+    <div class="container">
+      <div class="row">
+        <div class="col-1 col-md-2">
+          One of many columns
+        </div>
+        <div class="col-2 col-md-4">
+          One of many columns
+        </div>
+        <div class="col-3 col-md-6">
+          One of many columns
+        </div>
+        <div class="col-auto"> <!--Will break onto next line in med+ screens-->
+          One of many columns
+        </div>
+      </div>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
